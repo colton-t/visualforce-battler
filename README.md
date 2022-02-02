@@ -1,18 +1,16 @@
-# Salesforce DX Project: Next Steps
+# Visualforce Project: Pokemon Battler
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This project is a Pokemon Battler that allows users to simulate battles against challenging Pokemon teams using the PokeAPI and a Visualforce user interface. The user is able to create a team of six Pokemon and battle against randomly generated teams or against player teams from another participating org. Other participating orgs can pull created teams to battle against as well. 
 
-## How Do You Plan to Deploy Your Changes?
+## Base ERD
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+![Base Object ERD](https://user-images.githubusercontent.com/62946799/152066366-b1be8af4-e388-4b98-be13-c16302b54c52.png)
 
-## Configure Your Salesforce DX Project
+## Page Wireframes
+Pokemon Team Selection/Creation Page
+![Selector Page WF](https://user-images.githubusercontent.com/62946799/152066435-2dbfcc46-0f28-4b6a-a0eb-b3980b855c78.png)
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Pokemon Battle Setup and Battle Pages
+![Battle Page WF](https://user-images.githubusercontent.com/62946799/152066558-272fc8f2-865a-4a4c-a025-e1a7f9236f89.png)
 
-## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
