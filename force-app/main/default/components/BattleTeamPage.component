@@ -1,0 +1,21 @@
+<apex:component>
+    <apex:dataTable value="{!Teams}" var="team" id="pokeTable"
+        rowClasses="odd,even" styleClass="tableClass">
+
+        
+        <apex:column>
+            <apex:outputLink value="{!Team.Id1.URL}"/>
+            <apex:outputLink value="{!Team.Id3.URL}"/>
+            <apex:outputLink value="{!Team.Id5.URL}"/>
+        </apex:column>
+
+        <apex:column>
+            <apex:outputLink value="{!Team.Id2.URL}"/>
+            <apex:outputLink value="{!Team.Id4.URL}"/>
+            <apex:outputLink value="{!Team.Id6.URL}"/>
+        </apex:column>
+
+        <apex:outputText value="{!Team.name}"/>
+
+    </apex:dataTable>
+</apex:component>
