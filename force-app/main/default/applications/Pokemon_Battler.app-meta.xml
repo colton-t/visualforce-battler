@@ -13,6 +13,9 @@
     <tabs>standard-home</tabs>
     <tabs>Team_Selection</tabs>
     <tabs>Team_Battle</tabs>
+    <tabs>Pokemon__c</tabs>
+    <tabs>Team__c</tabs>
+    <tabs>Pokemon_Team__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Pok_mon_Battler_UtilityBar</utilityBar>
 </CustomApplication>
